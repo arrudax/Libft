@@ -3,3 +3,4 @@
 *.a
 .vscode/
 test_ft
+*.txt
