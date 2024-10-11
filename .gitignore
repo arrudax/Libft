@@ -1,3 +1,5 @@
 *.o
+*.swp
+*.a
 .vscode/
 test_ft
