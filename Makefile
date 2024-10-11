@@ -14,7 +14,8 @@ SOURCE_FILES_TEST	= tests/test_ft_isalpha.c \
 	tests/test_ft_isdigit.c \
 	tests/test_ft_isprint.c \
 	tests/test_ft_tolower.c \
-	tests/test_ft_toupper.c
+	tests/test_ft_toupper.c \
+	tests/custom_print.c
 
 NAME_EXEC_TEST	= run_test
 SOURCE_DIR 	= .
