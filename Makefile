@@ -3,9 +3,10 @@ NAME 				= libft.a
 
 SOURCE_FILES 		= ft_isalnum.c \
 	ft_isalpha.c \
+	ft_isascii.c \
 	ft_isdigit.c \
-	ft_islower.c \
-	ft_toupper.c
+	ft_tolower.c \
+	ft_toupper.c 
 
 SOURCE_DIR 			= .
 INCS 				= .
@@ -19,7 +20,7 @@ CFLAGS				= -Wall -Werror -Wextra
 all: $(NAME)
 
 
-%.o:%.c
+%.o: %.c
 	$(CC) $(CFLAGS) -c $(CCPFLAGS) $< -o $@
 
 
