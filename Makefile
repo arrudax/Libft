@@ -8,6 +8,7 @@ SOURCE_FILES 		= ft_isalnum.c \
 	ft_isprint.c \
 	ft_strchr.c \
 	ft_strlen.c \
+	ft_strncmp.c \
 	ft_strrchr.c \
 	ft_tolower.c \
 	ft_toupper.c 
@@ -18,6 +19,7 @@ SOURCE_FILES_TEST	= tests/test_ft_isalpha.c \
 	tests/test_ft_isprint.c \
 	tests/test_ft_strchr.c \
 	tests/test_ft_strlen.c \
+	tests/test_ft_strncmp.c \
 	tests/test_ft_tolower.c \
 	tests/test_ft_toupper.c \
 	tests/custom_print.c
