@@ -6,13 +6,14 @@
 /*   By: maanton2 <maanton2@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/11 00:13:19 by maanton2          #+#    #+#             */
-/*   Updated: 2024/10/13 11:38:31 by maanton2         ###   ########.fr       */
+/*   Updated: 2024/10/13 12:15:25 by maanton2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 # include <stddef.h>
+# include <stdlib.h>
 
 int		ft_isalnum(int c);
 int		ft_isalpha(int c);
@@ -25,5 +26,6 @@ size_t	ft_strlen(const char *s);
 char	*ft_strchr(const char *s, int c);
 char	*ft_strrchr(const char *s, int c);
 int		ft_strncmp(const char *str1, const char *str2, size_t n);
+void	*ft_memset(void *s, int c, size_t n);
 
 #endif
