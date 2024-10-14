@@ -1,7 +1,7 @@
 # Libft
 
 ## 🚀 Libft: My First C Library!
-Libft is a collection of essential C functions I developed as part of the 42 SP curriculum. Through this library, I recreated standard library functions, enhancing my programming skills and building a solid foundation in string manipulation, memory handling, and more. This journey allowed me to dive deep into the inner workings of these fundamental functions, setting the stage for more advanced projects!
+Libft is a curated collection of essential C functions that I developed as part of the 42 SP curriculum. Through this library, I have recreated standard library functions, enhancing my programming skills and establishing a robust foundation in string manipulation, memory management, and more. This journey has allowed me to explore the intricacies of these fundamental functions, paving the way for more advanced projects!
 
 ## Table of Contents
 - [How to Execute](#how-to-execute)
@@ -38,7 +38,7 @@ make
 
 ### Tests
 
-In this section, I highlight the importance of testing my library functions to ensure they work correctly. By implementing tests, I can verify the functionality across various scenarios.
+This section emphasizes the significance of testing my library functions to ensure their correctness. By implementing tests, I can validate functionality across a variety of scenarios.
 
 #### Setting Up Criterion for Testing
 
@@ -46,7 +46,7 @@ To use Criterion for testing your library functions, follow these steps:
 
 ##### Install Criterion
 
-Since you may not have sudo privileges on your 42 partition, you can install Criterion locally by following these steps:
+Since you may not have `sudo` privileges on your 42 partition, you can install Criterion locally by following these steps:
 
 1. **Install Required Libraries**:
 ```sh
