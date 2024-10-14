@@ -21,20 +21,21 @@ make
 ```
 ### Functions
 
-| Function | Include   | Description                |
-| :-------- | :------- | :------------------------- |
-| `ft_isalpha` | `<ctype.h>` | Checks if a character is **alphabetic** (A-Z, a-z).|
-| `ft_isdigit` | `<ctype.h>` | Checks if a character is a **decimal digit** (0-9). |
-| `ft_isalnum` | `<ctype.h>` | Checks if a character is **alphanumeric** (A-Z, a-z, 0-9).|
-| `ft_isascii` | `<ctype.h>` | Checks if a character belongs to the **ASCII** character set (0-127).|
-| `ft_isprint` | `<ctype.h>` | Checks if a character is **printable**, including space.|
-| `ft_toupper` | `<ctype.h>` | Converts a lowercase letter to **uppercase** (a to A)|
-| `ft_tolower` | `<ctype.h>` | Converts an uppercase letter to **lowercase** (A to a)|
-| `ft_memset` | `<string.h>` | Fills a block of memory with a **specified byte value.**|
-| `ft_strlen` | `<string.h>` | Returns the **length of a string**, excluding the null terminator ('\0').|
-| `ft_strchr` | `<string.h>` | Searches for the first **occurrence** of a character in a string.|
-| `ft_strrchr` | `<string.h>` | Searches for the last **occurrence** of a character in a string.|
-| `ft_strncmp` | `<string.h>` | Compares up to n characters of two **strings.**|
+| Function | Include   | Description                                      |
+| :-------- | :------- | :----------------------------------------------- |
+| [`ft_isalpha`](https://github.com/arrudax/Libft/blob/main/ft_isalpha.c) | `<ctype.h>` | Checks if a character is **alphabetic** (A-Z, a-z). |
+| [`ft_isdigit`](https://github.com/arrudax/Libft/blob/main/ft_isdigit.c) | `<ctype.h>` | Checks if a character is a **decimal digit** (0-9). |
+| [`ft_isalnum`](https://github.com/arrudax/Libft/blob/main/ft_isalnum.c) | `<ctype.h>` | Checks if a character is **alphanumeric** (A-Z, a-z, 0-9). |
+| [`ft_isascii`](https://github.com/arrudax/Libft/blob/main/ft_isascii.c) | `<ctype.h>` | Checks if a character belongs to the **ASCII** character set (0-127). |
+| [`ft_isprint`](https://github.com/arrudax/Libft/blob/main/ft_isprint.c) | `<ctype.h>` | Checks if a character is **printable**, including space. |
+| [`ft_toupper`](https://github.com/arrudax/Libft/blob/main/ft_toupper.c) | `<ctype.h>` | Converts a lowercase letter to **uppercase** (a to A). |
+| [`ft_tolower`](https://github.com/arrudax/Libft/blob/main/ft_tolower.c) | `<ctype.h>` | Converts an uppercase letter to **lowercase** (A to a). |
+| [`ft_memset`](https://github.com/arrudax/Libft/blob/main/ft_memset.c) | `<string.h>` | Fills a block of memory with a **specified byte value**. |
+| [`ft_strlen`](https://github.com/arrudax/Libft/blob/main/ft_strlen.c) | `<string.h>` | Returns the **length of a string**, excluding the null terminator ('\0'). |
+| [`ft_strchr`](https://github.com/arrudax/Libft/blob/main/ft_strchr.c) | `<string.h>` | Searches for the first **occurrence** of a character in a string. |
+| [`ft_strrchr`](https://github.com/arrudax/Libft/blob/main/ft_strrchr.c) | `<string.h>` | Searches for the last **occurrence** of a character in a string. |
+| [`ft_strncmp`](https://github.com/arrudax/Libft/blob/main/ft_strncmp.c) | `<string.h>` | Compares up to n characters of two **strings**. |
+
 
 ### Tests
 
