@@ -21,7 +21,7 @@ make
 ```
 ### Functions
 
-| Function | Include   | Description                                      |
+| Function | Library Header | Description                                      |
 | :-------- | :------- | :----------------------------------------------- |
 | [`ft_isalpha`](https://github.com/arrudax/Libft/blob/main/ft_isalpha.c) | `<ctype.h>` | Checks if a character is **alphabetic** (A-Z, a-z). |
 | [`ft_isdigit`](https://github.com/arrudax/Libft/blob/main/ft_isdigit.c) | `<ctype.h>` | Checks if a character is a **decimal digit** (0-9). |
