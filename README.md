@@ -75,9 +75,9 @@ ninja -C build install
 ```
 7. Edit Your Shell Configuration: Open your .bashrc or .zshrc file and add the following lines:
 ```.bashrc | .zshrc
-export C_INCLUDE_PATH="$HOME/.local/include:$C_INCLUDE_PATH"
-export LIBRARY_PATH="$HOME/.local/lib/x86_64-linux-gnu:$LIBRARY_PATH"
-export LD_LIBRARY_PATH="$HOME/.local/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH"
+export PATH=$HOME/.local/bin:$PATH
+export LD_LIBRARY_PATH=$HOME/.local/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=$HOME/.local/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH
 ```
 8. Load the Environment Variables: Reload your shell configuration:
 ```sh
