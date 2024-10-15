@@ -2,6 +2,7 @@ NAME 				= libft.a
 
 
 SOURCE_FILES 		= ft_isalnum.c \
+	ft_bzero.c \
 	ft_isalpha.c \
 	ft_isascii.c \
 	ft_isdigit.c \
@@ -15,6 +16,7 @@ SOURCE_FILES 		= ft_isalnum.c \
 	ft_toupper.c 
 
 SOURCE_FILES_TEST	= tests/test_ft_isalpha.c \
+	tests/test_ft_bzero.c \
 	tests/test_ft_isascii.c \
 	tests/test_ft_isdigit.c \
 	tests/test_ft_isprint.c \
