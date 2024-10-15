@@ -1,6 +1,7 @@
 #include <criterion/criterion.h>
 
 void custom_print_str(const char *test_name, char *result, const char *expected);
+
 char	*ft_strchr(const char *s, int c);
 
 TestSuite(suite_ft_strchr);
