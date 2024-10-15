@@ -7,6 +7,7 @@ SOURCE_FILES 		= ft_isalnum.c \
 	ft_isascii.c \
 	ft_isdigit.c \
 	ft_isprint.c \
+	ft_memchr.c \
 	ft_memset.c \
 	ft_strchr.c \
 	ft_strlen.c \
