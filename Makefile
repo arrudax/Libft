@@ -13,6 +13,7 @@ SOURCE_FILES 		= ft_isalnum.c \
 	ft_memmove.c \
 	ft_memset.c \
 	ft_strchr.c \
+	ft_strlcpy.c \
 	ft_strlen.c \
 	ft_strncmp.c \
 	ft_strnstr.c \
@@ -25,6 +26,7 @@ SOURCE_FILES_TEST	= tests/test_ft_isalpha.c \
 	tests/test_ft_isdigit.c \
 	tests/test_ft_isprint.c \
 	tests/test_ft_strchr.c \
+	tests/test_ft_strlcpy.c \
 	tests/test_ft_strlen.c \
 	tests/test_ft_strncmp.c \
 	tests/test_ft_tolower.c \
