@@ -30,11 +30,17 @@ make
 | [`ft_isprint`](https://github.com/arrudax/Libft/blob/main/ft_isprint.c) | `<ctype.h>` | Checks if a character is **printable**, including space. |
 | [`ft_toupper`](https://github.com/arrudax/Libft/blob/main/ft_toupper.c) | `<ctype.h>` | Converts a lowercase letter to **uppercase** (a to A). |
 | [`ft_tolower`](https://github.com/arrudax/Libft/blob/main/ft_tolower.c) | `<ctype.h>` | Converts an uppercase letter to **lowercase** (A to a). |
+| [`ft_bzero`](https://github.com/arrudax/Libft/blob/main/ft_bzero.c) | `<string.h>` | Writes n zeroed bytes to the string s. |
 | [`ft_memset`](https://github.com/arrudax/Libft/blob/main/ft_memset.c) | `<string.h>` | Fills a block of memory with a **specified byte value**. |
+| [`ft_memchr`](https://github.com/arrudax/Libft/blob/main/ft_memchr.c) | `<string.h>` | Locates the first occurrence of a byte in a block of memory. |
+| [`ft_memcmp`](https://github.com/arrudax/Libft/blob/main/ft_memcmp.c) | `<string.h>` | Compares two blocks of memory. |
+| [`ft_memcpy`](https://github.com/arrudax/Libft/blob/main/ft_memcpy.c) | `<string.h>` | Copies n bytes from source to destination. |
+| [`ft_memmove`](https://github.com/arrudax/Libft/blob/main/ft_memmove.c) | `<string.h>` | Moves n bytes from source to destination, handling overlapping memory areas. |
 | [`ft_strlen`](https://github.com/arrudax/Libft/blob/main/ft_strlen.c) | `<string.h>` | Returns the **length of a string**, excluding the null terminator ('\0'). |
 | [`ft_strchr`](https://github.com/arrudax/Libft/blob/main/ft_strchr.c) | `<string.h>` | Searches for the first **occurrence** of a character in a string. |
 | [`ft_strrchr`](https://github.com/arrudax/Libft/blob/main/ft_strrchr.c) | `<string.h>` | Searches for the last **occurrence** of a character in a string. |
 | [`ft_strncmp`](https://github.com/arrudax/Libft/blob/main/ft_strncmp.c) | `<string.h>` | Compares up to n characters of two **strings**. |
+| [`ft_strnstr`](https://github.com/arrudax/Libft/blob/main/ft_strnstr.c) | `<string.h>` | Locates a substring in a string, searching up to n characters. |
 
 
 ### Tests
