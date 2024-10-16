@@ -6,7 +6,7 @@
 /*   By: maanton2 <maanton2@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/11 00:13:19 by maanton2          #+#    #+#             */
-/*   Updated: 2024/10/15 00:05:45 by maanton2         ###   ########.org.br   */
+/*   Updated: 2024/10/15 23:17:06 by maanton2         ###   ########.org.br   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,9 @@ char		*ft_strrchr(const char *s, int c);
 int			ft_strncmp(const char *str1, const char *str2, size_t n);
 void		*ft_memset(void *s, int c, size_t n);
 void		*ft_memchr(const void *s, int c, size_t n);
-
+void		*ft_memcpy(void *dest, const void *src, size_t n);
+int			ft_memcmp(const void *s1, const void *s2, size_t n);
+void		*ft_memmove(void *dest, const void *src, size_t n);
+char		*ft_strnstr(const char *haystack, const char *needle, size_t len);
 
 #endif
