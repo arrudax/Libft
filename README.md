@@ -41,6 +41,11 @@ make
 | [`ft_strrchr`](https://github.com/arrudax/Libft/blob/main/ft_strrchr.c) | `<string.h>` | Searches for the last **occurrence** of a character in a string. |
 | [`ft_strncmp`](https://github.com/arrudax/Libft/blob/main/ft_strncmp.c) | `<string.h>` | Compares up to n characters of two **strings**. |
 | [`ft_strnstr`](https://github.com/arrudax/Libft/blob/main/ft_strnstr.c) | `<string.h>` | Locates a substring in a string, searching up to n characters. |
+| [`ft_atoi`](https://github.com/arrudax/Libft/blob/main/ft_atoi.c) | `<stdlib.h>` | Converts a string to an **integer**. |
+| [`ft_calloc`](https://github.com/arrudax/Libft/blob/main/ft_calloc.c) | `<stdlib.h>` | Allocates memory for an array and initializes it to zero. |
+| [`ft_strdup`](https://github.com/arrudax/Libft/blob/main/ft_strdup.c) | `<string.h>` | Duplicates a string, allocating sufficient memory for it. |
+| [`ft_strlcat`](https://github.com/arrudax/Libft/blob/main/ft_strlcat.c) | `<string.h>` | Concatenates two strings, ensuring the result is null-terminated and doesn't exceed a specified size. |
+| [`ft_strlcpy`](https://github.com/arrudax/Libft/blob/main/ft_strlcpy.c) | `<string.h>` | Copies a string into another, ensuring the result is null-terminated and doesn't exceed a specified size. |
 
 
 ### Tests
