@@ -6,7 +6,7 @@
 /*   By: maanton2 <maanton2@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/11 00:13:19 by maanton2          #+#    #+#             */
-/*   Updated: 2024/10/16 19:44:40 by maanton2         ###   ########.org.br   */
+/*   Updated: 2024/10/16 22:22:17 by maanton2         ###   ########.org.br   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <stdlib.h>
 # include <stdio.h>
 
+int			ft_atoi(const char *str);
 void		ft_bzero(void *s, size_t len);
 int			ft_isalnum(int c);
 int			ft_isalpha(int c);

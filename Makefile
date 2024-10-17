@@ -2,6 +2,7 @@ NAME 				= libft.a
 
 
 SOURCE_FILES 		= ft_isalnum.c \
+	ft_atoi.c \
 	ft_bzero.c \
 	ft_isalpha.c \
 	ft_isascii.c \
