@@ -6,7 +6,7 @@
 /*   By: maanton2 <maanton2@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 19:25:49 by maanton2          #+#    #+#             */
-/*   Updated: 2024/10/14 22:01:01 by maanton2         ###   ########.org.br   */
+/*   Updated: 2024/10/17 16:54:56 by maanton2         ###   ########.org.br   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,6 @@ void	ft_bzero(void *s, size_t len)
 	p = (unsigned char *)s;
 	while (len--)
 	{
-		*p = '\0';
-		p++;
+		*p++ = '\0';
 	}
 }
