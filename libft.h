@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: maanton2 <maanton2@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: maanton2 <maanton2@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/11 00:13:19 by maanton2          #+#    #+#             */
-/*   Updated: 2024/10/18 15:27:07 by maanton2         ###   ########.org.br   */
+/*   Updated: 2024/10/19 12:17:38 by maanton2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,6 +38,7 @@ int			ft_strncmp(const char *str1, const char *str2, size_t n);
 char		*ft_strnstr(const char *big, const char *little, size_t len);
 char		*ft_strrchr(const char *s, int c);
 char		*ft_strtrim(char const *s, char const *set);
+char		*ft_substr(char const *s1, unsigned int start, size_t len);
 int			ft_tolower(int c);
 int			ft_toupper(int c);
 
