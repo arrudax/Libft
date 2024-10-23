@@ -10,17 +10,24 @@ SOURCE_FILES		= ft_atoi.c \
 	ft_isascii.c \
 	ft_isdigit.c \
 	ft_isprint.c \
+	ft_itoa.c \
 	ft_memchr.c \
 	ft_memcmp.c \
 	ft_memcpy.c \
 	ft_memmove.c \
 	ft_memset.c \
+	ft_putchar_fd.c \
+	ft_putendl_fd.c \
+	ft_putstr_fd.c \
+	ft_split.c \
 	ft_strchr.c \
 	ft_strdup.c \
+	ft_striteri.c \
 	ft_strjoin.c \
 	ft_strlcat.c \
 	ft_strlcpy.c \
 	ft_strlen.c \
+	ft_strmapi.c \
 	ft_strncmp.c \
 	ft_strnstr.c \
 	ft_strrchr.c \
@@ -28,6 +35,12 @@ SOURCE_FILES		= ft_atoi.c \
 	ft_substr.c \
 	ft_tolower.c \
 	ft_toupper.c 
+
+SOURCE_FILES_BONUS		= ft_lstnew.c \
+	ft_lstadd_front.c \
+	ft_lstsize.c \
+	ft_lstlast.c \
+	ft_lstadd_back.c \
 
 SOURCE_FILES_TEST	= tests/test_ft_isalpha.c \
 	tests/test_ft_isascii.c \
@@ -46,7 +59,9 @@ INCS			= .
 CCPFLAGS		= -I $(INCS)
 CCPFLAGS_TEST	:= -I$$HOME/.local/include -L$$HOME/.local/lib/x86_64-linux-gnu
 
-OBJECT_FILES 	= $(SOURCE_FILES:.c=.o)
+OBJECT_FILES 		= $(SOURCE_FILES:.c=.o)
+OBJECT_FILES_BONUS 	= $(SOURCE_FILES_BONUS:.c=.o)
+ALL_OBJECTS 		= $(OBJECT_FILES) $(OBJECT_FILES_BONUS)
 
 CC 			= cc
 CFLAGS		= -Wall -Werror -Wextra
@@ -60,15 +75,19 @@ $(NAME): $(OBJECT_FILES)
 	ar rcs $(NAME) $(OBJECT_FILES)
 	@echo "Compilação concluída: $(NAME)"
 
+bonus: $(OBJECT_FILES) $(OBJECT_FILES_BONUS)
+	ar rcs $(NAME) $(ALL_OBJECTS) 
+	@echo "Compilação bônus concluída: $(NAME)"
+
 test: $(NOME)
 	$(CC) -o $(NAME_EXEC_TEST) $(SOURCE_FILES_TEST) $(SOURCE_FILES) $(CCPFLAGS_TEST) -lcriterion && ./$(NAME_EXEC_TEST)
 
 clean:
-	rm -f $(OBJECT_FILES) $(NAME_EXEC_TEST)
+	rm -f $(NAME_EXEC_TEST) $(ALL_OBJECTS) 
 
 fclean: clean
 	rm -f $(NAME)
 
 re: fclean all
 
-.PHONY: all clean fclean re
+.PHONY: all clean fclean rea bonus test
