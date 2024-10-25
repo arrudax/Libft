@@ -6,7 +6,7 @@
 /*   By: maanton2 <maanton2@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 19:55:31 by maanton2          #+#    #+#             */
-/*   Updated: 2024/10/22 23:50:20 by maanton2         ###   ########.org.br   */
+/*   Updated: 2024/10/24 19:14:18 by maanton2         ###   ########.org.br   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,13 +62,9 @@ static void	itoca(char *dest, long n)
 
 char	*ft_itoa(int n)
 {
-	size_t	size;
 	char	convert[12];
-	char	*result;
 
 	itoca(convert, n);
-	size = ft_strlen(convert);
-	ft_rev_int_tab(convert, size);
-	result = ft_strdup(convert);
-	return (result);
+	ft_rev_int_tab(convert, ft_strlen(convert));
+	return (ft_strdup(convert));
 }

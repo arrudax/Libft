@@ -6,7 +6,7 @@
 /*   By: maanton2 <maanton2@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/16 20:10:21 by maanton2          #+#    #+#             */
-/*   Updated: 2024/10/23 17:15:37 by maanton2         ###   ########.org.br   */
+/*   Updated: 2024/10/24 18:59:26 by maanton2         ###   ########.org.br   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,14 +67,3 @@ int	ft_atoi(const char *str)
 	result = isdigit(&p_s);
 	return (result * signal);
 }
-#include <stdio.h>
-int	main(void)
-{
-	const char *str = "\t\n\r\v\f -+-469 \n";
-	int num = ft_atoi(str);
-    int num2 = atoi(str);
-	printf("ft: %d\n", num);
-	printf("og: %d\n", num2);
-	return (0);
-}
-
