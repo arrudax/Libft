@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_itoa.c                                          :+:      :+:    :+:   */
+/*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: maanton2 <maanton2@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 19:55:31 by maanton2          #+#    #+#             */
-/*   Updated: 2024/10/26 18:53:30 by maanton2         ###   ########.org.br   */
+/*   Updated: 2024/10/26 18:57:35 by maanton2         ###   ########.org.br   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,11 +60,13 @@ static void	itoca(char *dest, long n)
 	dest[i] = '\0';
 }
 
-char	*ft_itoa(int n)
+void	ft_putnbr_fd(int n, int fd)
 {
 	char	convert[12];
+	int		convert_len;
 
 	itoca(convert, n);
-	ft_rev_int_tab(convert, ft_strlen(convert));
-	return (ft_strdup(convert));
+	convert_len = ft_strlen(convert);
+	ft_rev_int_tab(convert, convert_len);
+	write(fd, convert, convert_len);
 }
