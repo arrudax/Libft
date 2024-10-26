@@ -6,43 +6,43 @@
 /*   By: maanton2 <maanton2@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/16 20:10:21 by maanton2          #+#    #+#             */
-/*   Updated: 2024/10/24 18:59:26 by maanton2         ###   ########.org.br   */
+/*   Updated: 2024/10/25 18:20:47 by maanton2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static void	isspace(char **str)
+static void	skip_whitespace(char **str)
 {
 	while (**str == 32 || (**str >= 9 && **str <= 13))
 		(*str)++;
 }
 
-static void	isnegative(int *sign, char **str)
+static void	evaluate_sign(int *sign, char **str)
 {
-	int	v;
+	int	count_sign;
 
-	v = 0;
+	count_sign = 0;
 	*sign = 0;
 	while (**str == '-' || **str == '+')
 	{
 		if (**str == '-')
 			(*sign)++;
 		(*str)++;
-		v++;
+		count_sign++;
 	}
-	if (v > 1)
+	if (count_sign > 1)
 	{
 		*str = "0";
 		return ;
 	}
 	if (*sign % 2 == 0)
-			*sign = 1;
+		*sign = 1;
 	else
 		*sign = -1;
 }
 
-static int	isdigit(char **str)
+static int	extract_digits(char **str)
 {
 	int	result;
 
@@ -59,11 +59,9 @@ int	ft_atoi(const char *str)
 {
 	char	*p_s;
 	int		signal;
-	int		result;
 
 	p_s = (char *) str;
-	isspace(&p_s);
-	isnegative(&signal, &p_s);
-	result = isdigit(&p_s);
-	return (result * signal);
+	skip_whitespace(&p_s);
+	evaluate_sign(&signal, &p_s);
+	return (extract_digits(&p_s) * signal);
 }
