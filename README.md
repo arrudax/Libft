@@ -72,23 +72,23 @@ git clone https://github.com/Snaipe/Criterion.git && cd Criterion
 ```sh
 mkdir build
 ```
-4. Configure the Build with Meson: Run the Meson setup command:
-```sh
-meson setup build
-```
-5. Compile with Ninja: Use Ninja to compile:
-```sh
-ninja -C build
-```
-6. Install Criterion: Install the Criterion library:
-```sh
-ninja -C build install
-```
-7. Edit Your Shell Configuration: Open your .bashrc or .zshrc file and add the following lines:
+4. Edit Your Shell Configuration: Open your .bashrc or .zshrc file and add the following lines:
 ```.bashrc | .zshrc
 export PATH=$HOME/.local/bin:$PATH
 export LD_LIBRARY_PATH=$HOME/.local/lib:$LD_LIBRARY_PATH
 export LD_LIBRARY_PATH=$HOME/.local/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH
+```
+5. Configure the Build with Meson: Run the Meson setup command:
+```sh
+meson setup build
+```
+6. Compile with Ninja: Use Ninja to compile:
+```sh
+ninja -C build
+```
+7. Install Criterion: Install the Criterion library:
+```sh
+ninja -C build install
 ```
 8. Load the Environment Variables: Reload your shell configuration:
 ```sh
