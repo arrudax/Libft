@@ -68,37 +68,33 @@ Since you may not have `sudo` privileges on your 42 partition, you can install C
 ```sh
 git clone https://github.com/Snaipe/Criterion.git && cd Criterion
 ```
-3. Set Up the Build Directory: Create a build directory:
-```sh
-mkdir build
-```
-4. Edit Your Shell Configuration: Open your .bashrc or .zshrc file and add the following lines:
+3. Edit Your Shell Configuration: Open your .bashrc or .zshrc file and add the following lines:
 ```.bashrc | .zshrc
 export PATH=$HOME/.local/bin:$PATH
 export LD_LIBRARY_PATH=$HOME/.local/lib:$LD_LIBRARY_PATH
 export LD_LIBRARY_PATH=$HOME/.local/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH
 ```
-5. Configure the Build with Meson: Run the Meson setup command:
+4. Configure the Build with Meson: Run the Meson setup command:
 ```sh
-meson setup build
+meson setup build --prefix=$HOME/.local --reconfigure
 ```
-6. Compile with Ninja: Use Ninja to compile:
+5. Compile with Ninja: Use Ninja to compile:
 ```sh
 ninja -C build
 ```
-7. Install Criterion: Install the Criterion library:
+6. Install Criterion: Install the Criterion library:
 ```sh
 ninja -C build install
 ```
-8. Load the Environment Variables: Reload your shell configuration:
+7. Load the Environment Variables: Reload your shell configuration:
 ```sh
 source ~/.bashrc  # or `source ~/.zshrc` if you're using zsh
 ```
-9. Compile the Tests: Finally, compile the tests with the command:
+8. Compile the Tests: Finally, compile the tests with the command:
 ```sh
 make test
 ```
 ## Authors
 
 - [@arrudax](https://www.github.com/arrudax)
-
+- [@mendes-jv](https://www.github.com/mendes-jv)
