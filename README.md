@@ -1,6 +1,6 @@
-# Libft
+# <img src="https://cdn-icons-png.flaticon.com/512/4345/4345676.png" alt="Icon library" width="40" height="40"> Libft
 
-![Icon library](https://cdn-icons-png.flaticon.com/512/4345/4345676.png)
+
 [![Language: C](https://img.shields.io/badge/Language-C-blue.svg)](https://en.wikipedia.org/wiki/C_(programming_language)) 
 [![OS: Linux](https://img.shields.io/badge/OS-Linux-FCC624.svg)](https://en.wikipedia.org/wiki/Linux)
 
