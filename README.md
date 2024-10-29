@@ -13,7 +13,7 @@ Libft is a curated collection of essential C functions that I developed as part 
 ## How to Execute
 1. Clone the repository and navigate to the project directory:
 ```sh
-git clone https://github.com/arrudax/libft.git && cd libft_arrudax
+git clone https://github.com/arrudax/libft.git libft_arrudax && cd libft_arrudax
 ```
 2. Compile the library:
 ```sh
@@ -46,6 +46,30 @@ make
 | [`ft_strdup`](https://github.com/arrudax/Libft/blob/main/ft_strdup.c) | `<string.h>` | Duplicates a string, allocating sufficient memory for it. |
 | [`ft_strlcat`](https://github.com/arrudax/Libft/blob/main/ft_strlcat.c) | `<string.h>` | Concatenates two strings, ensuring the result is null-terminated and doesn't exceed a specified size. |
 | [`ft_strlcpy`](https://github.com/arrudax/Libft/blob/main/ft_strlcpy.c) | `<string.h>` | Copies a string into another, ensuring the result is null-terminated and doesn't exceed a specified size. |
+| [`ft_itoa`](https://github.com/arrudax/Libft/blob/main/ft_itoa.c) | `<stdlib.h>` | Converts an integer to a **string** representation. |
+| [`ft_putchar_fd`](https://github.com/arrudax/Libft/blob/main/ft_putchar_fd.c) | `<unistd.h>` | Outputs a character to the specified file descriptor. |
+| [`ft_putstr_fd`](https://github.com/arrudax/Libft/blob/main/ft_putstr_fd.c) | `<unistd.h>` | Outputs a string to the specified file descriptor. |
+| [`ft_putendl_fd`](https://github.com/arrudax/Libft/blob/main/ft_putendl_fd.c) | `<unistd.h>` | Outputs a string followed by a newline to the specified file descriptor. |
+| [`ft_putnbr_fd`](https://github.com/arrudax/Libft/blob/main/ft_putnbr_fd.c) | `<unistd.h>` | Outputs an integer as a string to the specified file descriptor. |
+| [`ft_strchr`](https://github.com/arrudax/Libft/blob/main/ft_strchr.c) | `<string.h>` | Searches for the first **occurrence** of a character in a string. |
+| [`ft_striteri`](https://github.com/arrudax/Libft/blob/main/ft_striteri.c) | `<string.h>` | Applies a function to each character of a string, passing its index as a parameter. |
+| [`ft_strjoin`](https://github.com/arrudax/Libft/blob/main/ft_strjoin.c) | `<string.h>` | Allocates and returns a new string which is the result of the concatenation of two strings. |
+| [`ft_split`](https://github.com/arrudax/Libft/blob/main/ft_split.c) | `<stdlib.h>` | Splits a string into an array of strings based on a delimiter. |
+| [`ft_strlcat`](https://github.com/arrudax/Libft/blob/main/ft_strlcat.c) | `<string.h>` | Concatenates two strings, ensuring the result is null-terminated and doesn't exceed a specified size. |
+| [`ft_strlcpy`](https://github.com/arrudax/Libft/blob/main/ft_strlcpy.c) | `<string.h>` | Copies a string into another, ensuring the result is null-terminated and doesn't exceed a specified size. |
+| [`ft_strmapi`](https://github.com/arrudax/Libft/blob/main/ft_strmapi.c) | `<string.h>` | Applies a function to each character of a string and creates a new string from the results. |
+| [`ft_strnstr`](https://github.com/arrudax/Libft/blob/main/ft_strnstr.c) | `<string.h>` | Locates a substring in a string, searching up to n characters. |
+| [`ft_strtrim`](https://github.com/arrudax/Libft/blob/main/ft_strtrim.c) | `<stdlib.h>` | Trims specified characters from the start and end of a string. |
+| [`ft_substr`](https://github.com/arrudax/Libft/blob/main/ft_substr.c) | `<stdlib.h>` | Allocates and returns a substring from a given string. |
+| [`ft_lstnew_bonus`](https://github.com/arrudax/Libft/blob/main/ft_lstnew_bonus.c) | `<stdlib.h>` | Allocates and returns a new element for a linked list. |
+| [`ft_lstadd_front_bonus`](https://github.com/arrudax/Libft/blob/main/ft_lstadd_front_bonus.c) | `<stdlib.h>` | Adds an element to the beginning of a linked list. |
+| [`ft_lstadd_back_bonus`](https://github.com/arrudax/Libft/blob/main/ft_lstadd_back_bonus.c) | `<stdlib.h>` | Adds an element to the end of a linked list. |
+| [`ft_lstiter_bonus`](https://github.com/arrudax/Libft/blob/main/ft_lstiter_bonus.c) | `<stdlib.h>` | Iterates over a linked list and applies a function to each element. |
+| [`ft_lstmap_bonus`](https://github.com/arrudax/Libft/blob/main/ft_lstmap_bonus.c) | `<stdlib.h>` | Iterates over a linked list, applying a function to each element and creating a new list with the results. |
+| [`ft_lstlast_bonus`](https://github.com/arrudax/Libft/blob/main/ft_lstlast_bonus.c) | `<stdlib.h>` | Returns the last element of a linked list. |
+| [`ft_lstsize_bonus`](https://github.com/arrudax/Libft/blob/main/ft_lstsize_bonus.c) | `<stdlib.h>` | Returns the number of elements in a linked list. |
+| [`ft_lstclear_bonus`](https://github.com/arrudax/Libft/blob/main/ft_lstclear_bonus.c) | `<stdlib.h>` | Deletes and frees a linked list. |
+| [`ft_lstdelone_bonus`](https://github.com/arrudax/Libft/blob/main/ft_lstdelone_bonus.c) | `<stdlib.h>` | Deletes a single element from a linked list and frees its memory. |
 
 
 ### Tests
