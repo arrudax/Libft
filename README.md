@@ -57,21 +57,21 @@ make
 | [`ft_putendl_fd`](https://github.com/arrudax/Libft/blob/main/ft_putendl_fd.c) | `libft.h` | Outputs a string followed by a newline to a given file descriptor. |
 | [`ft_putnbr_fd`](https://github.com/arrudax/Libft/blob/main/ft_putnbr_fd.c) | `libft.h` | Outputs an integer to a given file descriptor. |
 | [`ft_itoa`](https://github.com/arrudax/Libft/blob/main/ft_itoa.c) | `libft.h` | Converts an integer to a null-terminated string. |
-| [`ft_strjoin`](https://github.com/arrudax/Libft/blob/main/ft_strjoin.c) | `libft.h` | Concatenates dois strings into uma nova. |
-| [`ft_strmapi`](https://github.com/arrudax/Libft/blob/main/ft_strmapi.c) | `libft.h` | Applies uma função a cada caractere de uma string, criando uma nova string modificada. |
-| [`ft_strtrim`](https://github.com/arrudax/Libft/blob/main/ft_strtrim.c) | `libft.h` | Trims especificados caracteres do início e do fim de uma string. |
+| [`ft_strjoin`](https://github.com/arrudax/Libft/blob/main/ft_strjoin.c) | `libft.h` | Concatenates two strings into a new one. |
+| [`ft_strmapi`](https://github.com/arrudax/Libft/blob/main/ft_strmapi.c) | `libft.h` | 	Applies a function to each character of a string, creating a new modified string. |
+| [`ft_strtrim`](https://github.com/arrudax/Libft/blob/main/ft_strtrim.c) | `libft.h` | Trims specified characters from the beginning and the end of a string. |
 | [`ft_substr`](https://github.com/arrudax/Libft/blob/main/ft_substr.c) | `libft.h` | Extracts uma substring de uma string dada. |
-| [`ft_lstnew`](https://github.com/arrudax/Libft/blob/main/ft_lstnew.c) | `libft.h` | Creates uma nova node de lista com um dado conteúdo. |
-| [`ft_lstadd_front`](https://github.com/arrudax/Libft/blob/main/ft_lstadd_front.c) | `libft.h` | Adds uma node ao início de uma lista ligada. |
-| [`ft_lstsize`](https://github.com/arrudax/Libft/blob/main/ft_lstsize.c) | `libft.h` | Returns o número de nodes em uma lista ligada. |
-| [`ft_lstlast`](https://github.com/arrudax/Libft/blob/main/ft_lstlast.c) | `libft.h` | Returns a última node em uma lista ligada. |
-| [`ft_lstadd_back`](https://github.com/arrudax/Libft/blob/main/ft_lstadd_back.c) | `libft.h` | Adds uma node ao fim de uma lista ligada. |
-| [`ft_lstdelone`](https://github.com/arrudax/Libft/blob/main/ft_lstdelone.c) | `libft.h` | Deletes uma única node de uma lista ligada. |
-| [`ft_lstclear`](https://github.com/arrudax/Libft/blob/main/ft_lstclear.c) | `libft.h` | Deletes e frees todas as nodes em uma lista ligada. |
-| [`ft_lstiter`](https://github.com/arrudax/Libft/blob/main/ft_lstiter.c) | `libft.h` | Iterates sobre cada node em uma lista ligada, aplicando uma função a cada uma. |
-| [`ft_lstmap`](https://github.com/arrudax/Libft/blob/main/ft_lstmap.c) | `libft.h` | Maps uma função a cada node em uma lista ligada. |
-| [`ft_striteri`](https://github.com/arrudax/Libft/blob/main/ft_striteri.c) | `libft.h` | Applies uma função a cada caractere de uma string, passando o índice do caractere para a função também. Isso é útil para modificar caracteres com base em suas posições. |
-| [`ft_split`](https://github.com/arrudax/Libft/blob/main/ft_split.c) | `libft.h` | Splits uma string em um array de strings com base em um delimitador especificado. Cada substring é alocada dinamicamente, e o array final é null-terminated. |
+| [`ft_lstnew`](https://github.com/arrudax/Libft/blob/main/ft_lstnew.c) | `libft.h` | Creates a new list node with given content. |
+| [`ft_lstadd_front`](https://github.com/arrudax/Libft/blob/main/ft_lstadd_front.c) | `libft.h` | Adds a node to the front of a linked list. |
+| [`ft_lstsize`](https://github.com/arrudax/Libft/blob/main/ft_lstsize.c) | `libft.h` | Returns the number of nodes in a linked list. |
+| [`ft_lstlast`](https://github.com/arrudax/Libft/blob/main/ft_lstlast.c) | `libft.h` | Returns the last node in a linked list. |
+| [`ft_lstadd_back`](https://github.com/arrudax/Libft/blob/main/ft_lstadd_back.c) | `libft.h` | Adds a node to the end of a linked list. |
+| [`ft_lstdelone`](https://github.com/arrudax/Libft/blob/main/ft_lstdelone.c) | `libft.h` | Deletes a single node from a linked list. |
+| [`ft_lstclear`](https://github.com/arrudax/Libft/blob/main/ft_lstclear.c) | `libft.h` | Deletes and frees all nodes in a linked list. |
+| [`ft_lstiter`](https://github.com/arrudax/Libft/blob/main/ft_lstiter.c) | `libft.h` | Iterates over each node in a linked list, applying a function to each. |
+| [`ft_lstmap`](https://github.com/arrudax/Libft/blob/main/ft_lstmap.c) | `libft.h` | Maps a function to each node in a linked list. |
+| [`ft_striteri`](https://github.com/arrudax/Libft/blob/main/ft_striteri.c) | `libft.h` | Applies a function to each character of a string, also passing the character's index to the function. This is useful for modifying characters based on their positions.|
+| [`ft_split`](https://github.com/arrudax/Libft/blob/main/ft_split.c) | `libft.h` | Splits a string into an array of strings based on a specified delimiter. Each substring is dynamically allocated, and the final array is null-terminated. |
 
 ### Tests
 
