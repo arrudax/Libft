@@ -1,4 +1,4 @@
-# <img src="https://cdn-icons-png.flaticon.com/512/2579/2579669.png" alt="Icon library" width="40" height="40"> Libft
+# <img src="https://cdn-icons-png.flaticon.com/512/2579/2579669.png" alt="Icon library" width="55" height="55" style="vertical-align: middle;" Libft
 
 
 [![Language: C](https://img.shields.io/badge/Language-C-blue.svg)](https://en.wikipedia.org/wiki/C_(programming_language)) 
