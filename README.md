@@ -2,8 +2,8 @@
   <img src="https://cdn-icons-png.flaticon.com/512/2579/2579669.png" alt="Icon library" width="55" height="55" style="vertical-align: middle;"/> Libft
 </h1>
 
-[![Language: C](https://img.shields.io/badge/Language-C-blue.svg)](https://en.wikipedia.org/wiki/C_(programming_language)) 
 [![OS: Linux](https://img.shields.io/badge/OS-Linux-FCC624.svg)](https://en.wikipedia.org/wiki/Linux)
+[![Language: C](https://img.shields.io/badge/Language-C-blue.svg)](https://en.wikipedia.org/wiki/C_(programming_language)) 
 
 ## 🚀 Libft: My First C Library!
 Libft is a curated collection of essential C functions that I developed as part of the 42 SP curriculum. Through this library, I have recreated standard library functions, enhancing my programming skills and establishing a robust foundation in string manipulation, memory management, and more. This journey has allowed me to explore the intricacies of these fundamental functions, paving the way for more advanced projects!
@@ -120,10 +120,10 @@ ninja -C build install
 make test
 ```
 
-## Referências
+## References
 
-- [Documentação do C](https://en.cppreference.com/w/c)
-- [Critério - Framework de Testes](https://github.com/Snaipe/Criterion)
+- [C Documentation](https://en.cppreference.com/w/c)
+- [Criterion - Testing Framework](https://github.com/Snaipe/Criterion)
 
 ## Authors
 
