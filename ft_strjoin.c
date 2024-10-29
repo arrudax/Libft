@@ -6,12 +6,26 @@
 /*   By: maanton2 <maanton2@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 18:59:42 by maanton2          #+#    #+#             */
-/*   Updated: 2024/10/18 16:33:11 by maanton2         ###   ########.org.br   */
+/*   Updated: 2024/10/29 14:29:54 by maanton2         ###   ########.org.br   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Concatenates two strings into a new string.
+ *
+ * This function allocates sufficient memory for a new string that
+ * contains the contents of 's1' followed by the contents of 's2'.
+ * The resulting string is null-terminated. The caller is responsible
+ * for freeing the memory allocated for the new string.
+ *
+ * @param s1 The first string to concatenate.
+ * @param s2 The second string to concatenate.
+ * @return A pointer to the newly allocated string containing
+ *         the concatenation of 's1' and 's2', or NULL if the
+ *         allocation fails.
+ */
 char	*ft_strjoin(char const *s1, char const *s2)
 {
 	char	*aux;

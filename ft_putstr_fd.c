@@ -6,12 +6,22 @@
 /*   By: maanton2 <maanton2@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/13 11:48:38 by maanton2          #+#    #+#             */
-/*   Updated: 2024/10/22 21:00:49 by maanton2         ###   ########.org.br   */
+/*   Updated: 2024/10/29 14:17:01 by maanton2         ###   ########.org.br   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Writes a string to a specified file descriptor.
+ *
+ * This function takes a string 's' and writes it to the file descriptor 'fd'.
+ * If the string is NULL, the function does nothing. The length of the string
+ * is determined using the `ft_strlen` function.
+ *
+ * @param s The string to write. If NULL, the function returns immediately.
+ * @param fd The file descriptor where the string will be written.
+ */
 void	ft_putstr_fd(char *s, int fd)
 {
 	if (s == NULL)

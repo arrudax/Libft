@@ -6,12 +6,23 @@
 /*   By: maanton2 <maanton2@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 16:22:45 by maanton2          #+#    #+#             */
-/*   Updated: 2024/10/23 15:38:12 by maanton2         ###   ########.org.br   */
+/*   Updated: 2024/10/29 14:27:14 by maanton2         ###   ########.org.br   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Counts the number of substrings in a string that are separated by a delimiter.
+ *
+ * This function iterates through the string 's' and counts the number of times a
+ * substring is followed by the delimiter 'c' or the end of the string. It returns
+ * the total count of such substrings.
+ *
+ * @param s The string to be evaluated.
+ * @param c The delimiter character.
+ * @return The count of substrings separated by the delimiter.
+ */
 static int	slen_to_delimiter(char const *s, char c)
 {
 	int	i;
@@ -26,6 +37,16 @@ static int	slen_to_delimiter(char const *s, char c)
 	return (i);
 }
 
+/**
+ * @brief Counts the length of a substring up to a delimiter.
+ *
+ * This function counts the number of characters in the string 's' until the
+ * delimiter character 'c' is encountered. It returns the length of the substring.
+ *
+ * @param s The string to be evaluated.
+ * @param c The delimiter character.
+ * @return The length of the substring before the delimiter.
+ */
 static int	str_len_count_to_delimiter(char const *s, char c)
 {
 	int	i;
@@ -39,6 +60,16 @@ static int	str_len_count_to_delimiter(char const *s, char c)
 	return (i);
 }
 
+/**
+ * @brief Frees allocated memory for an array of strings.
+ *
+ * This function takes an array of strings and frees each string as well as
+ * the array itself. It returns NULL.
+ *
+ * @param split The array of strings to be freed.
+ * @param count The count of allocated strings.
+ * @return NULL.
+ */
 static void	*free_allocs(char **split, int count)
 {
 	while (count--)
@@ -47,6 +78,19 @@ static void	*free_allocs(char **split, int count)
 	return (NULL);
 }
 
+/**
+ * @brief Allocates memory and copies a substring from the string up to a delimiter.
+ *
+ * This function allocates memory for a new string that will contain the
+ * substring of 's' up to the delimiter 'c'. It updates the count of
+ * allocated strings. If memory allocation fails, it frees previously allocated
+ * memory and returns NULL.
+ *
+ * @param s The string to be copied from.
+ * @param c The delimiter character.
+ * @param count_alloc Pointer to the count of allocated strings.
+ * @return A pointer to the newly allocated substring, or NULL on failure.
+ */
 static char	*alloc_and_copy_str(char const *s, char c, int *count_alloc)
 {
 	int		str_len;
@@ -64,6 +108,18 @@ static char	*alloc_and_copy_str(char const *s, char c, int *count_alloc)
 	return (aux);
 }
 
+/**
+ * @brief Splits a string into an array of strings using a delimiter.
+ *
+ * This function takes a string 's' and splits it into an array of strings,
+ * separated by the character 'c'. It allocates memory for the array and each
+ * substring. If memory allocation fails, it frees all allocated memory and
+ * returns NULL.
+ *
+ * @param s The string to be split.
+ * @param c The delimiter character.
+ * @return An array of strings, or NULL on failure.
+ */
 char	**ft_split(char const *s, char c)
 {
 	char	**aux;
@@ -91,28 +147,3 @@ char	**ft_split(char const *s, char c)
 	*aux = NULL;
 	return (split);
 }
-/*
-int	main(void)
-{
-	char	**r;
-	char	s[] = "aaaa bbbbb ccccc ddddd eeeee";
-	int		i;
-
-	// Usar a função para dividir a string
-		r = ft_split(s, ' ');
-
-	// Imprimir as strings separadas
-	for (i = 0; r[i] != NULL; i++)
-	{
-		printf("r[%d]: %s\n", i, r[i]);
-	}
-
-	// Liberar a memória alocada
-	for (i = 0; r[i] != NULL; i++)
-	{
-		free(r[i]);
-	}
-	free(r);
-
-	return (0);
-}*/

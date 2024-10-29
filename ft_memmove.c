@@ -6,12 +6,25 @@
 /*   By: maanton2 <maanton2@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/13 11:48:38 by maanton2          #+#    #+#             */
-/*   Updated: 2024/10/21 23:26:28 by maanton2         ###   ########.org.br   */
+/*   Updated: 2024/10/29 14:11:03 by maanton2         ###   ########.org.br   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Moves memory area from source to destination.
+ *
+ * This function copies n bytes from the memory area pointed to by src
+ * to the memory area pointed to by dest, handling overlapping memory areas.
+ * If the source and destination are the same or if n is zero, the function
+ * simply returns dest without performing any operation.
+ *
+ * @param dest A pointer to the destination memory area where the content is to be moved.
+ * @param src A pointer to the source memory area from which content is to be moved.
+ * @param n The number of bytes to move.
+ * @return A pointer to the destination memory area (dest).
+ */
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {
 	unsigned char	*p_d;
@@ -33,15 +46,3 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-/*
-int main() {
-    char str[] = "josedasilva";  // String original
-
-    printf("Antes do memmove, str = %s\n", str);
-
-    ft_memmove(str + 2, str, 5);
-
-    printf("\nDepois do memmove (com sobreposição), str = %s\n", str);
-
-    return 0;
-}*/

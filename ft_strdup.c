@@ -6,12 +6,23 @@
 /*   By: maanton2 <maanton2@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/16 16:36:12 by maanton2          #+#    #+#             */
-/*   Updated: 2024/10/22 20:18:09 by maanton2         ###   ########.org.br   */
+/*   Updated: 2024/10/29 14:28:44 by maanton2         ###   ########.org.br   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Creates a duplicate of a string.
+ *
+ * This function allocates memory for a new string and copies the content
+ * of the string 's' into the newly allocated memory. The new string will
+ * be null-terminated. If memory allocation fails, NULL is returned.
+ *
+ * @param s The string to be duplicated.
+ * @return A pointer to the newly allocated string containing the copy of 's',
+ *         or NULL if the allocation fails.
+ */
 char	*ft_strdup(const char *s)
 {
 	char		*copy;

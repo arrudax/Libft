@@ -6,12 +6,21 @@
 /*   By: maanton2 <maanton2@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/23 11:49:57 by maanton2          #+#    #+#             */
-/*   Updated: 2024/10/23 17:29:11 by maanton2         ###   ########.org.br   */
+/*   Updated: 2024/10/29 14:06:54 by maanton2         ###   ########.org.br   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Counts the number of nodes in a list.
+ *
+ * This function iterates through the linked list, counting the total number
+ * of nodes and returning that count.
+ *
+ * @param lst A pointer to the first node of the list.
+ * @return The number of nodes in the list. Returns 0 if the list is empty.
+ */
 int	ft_lstsize(t_list *lst)
 {
 	int		i;

@@ -6,12 +6,25 @@
 /*   By: maanton2 <maanton2@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 18:59:42 by maanton2          #+#    #+#             */
-/*   Updated: 2024/10/19 10:55:58 by maanton2         ###   ########.org.br   */
+/*   Updated: 2024/10/29 14:34:34 by maanton2         ###   ########.org.br   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Removes characters from the beginning and end of a string.
+ *
+ * This function trims the characters specified in 'set' from
+ * both ends of the string 's'. The resulting string is dynamically
+ * allocated and must be freed by the caller.
+ *
+ * @param s The string to be trimmed.
+ * @param set The set of characters to remove from the beginning and
+ *            end of 's'.
+ * @return A pointer to the newly allocated string with trimmed characters,
+ *         or NULL if memory allocation fails.
+ */
 char	*ft_strtrim(char const *s, char const *set)
 {
 	char	*p_start;
