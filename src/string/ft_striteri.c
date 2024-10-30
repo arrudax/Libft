@@ -3,14 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: maanton2 <maanton2@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: maanton2 <maanton2@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/13 11:48:38 by maanton2          #+#    #+#             */
-/*   Updated: 2024/10/29 14:29:19 by maanton2         ###   ########.org.br   */
+/*   Updated: 2024/10/30 17:21:53 by maanton2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 /**
  * @brief Applies a function to each character of a string with its index.

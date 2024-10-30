@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: maanton2 <maanton2@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: maanton2 <maanton2@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/10 16:46:58 by maanton2          #+#    #+#             */
-/*   Updated: 2024/10/29 13:50:58 by maanton2         ###   ########.org.br   */
+/*   Updated: 2024/10/30 17:25:59 by maanton2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../includes/libft.h"
 
 /**
  * @brief Checks if the given character is alphanumeric.

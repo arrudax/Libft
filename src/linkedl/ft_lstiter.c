@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstiter.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: maanton2 <maanton2@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: maanton2 <maanton2@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/23 11:49:57 by maanton2          #+#    #+#             */
-/*   Updated: 2024/10/29 14:03:41 by maanton2         ###   ########.org.br   */
+/*   Updated: 2024/10/30 17:25:14 by maanton2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../includes/libft.h"
 
 /**
  * @brief Iterates over a linked list and applies a function to each element.

@@ -6,11 +6,11 @@
 /*   By: maanton2 <maanton2@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/16 16:36:12 by maanton2          #+#    #+#             */
-/*   Updated: 2024/10/29 14:28:44 by maanton2         ###   ########.org.br   */
+/*   Updated: 2024/10/30 17:24:42 by maanton2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../includes/libft.h"
 
 /**
  * @brief Creates a duplicate of a string.

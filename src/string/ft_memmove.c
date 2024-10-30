@@ -6,11 +6,11 @@
 /*   By: maanton2 <maanton2@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/13 11:48:38 by maanton2          #+#    #+#             */
-/*   Updated: 2024/10/29 14:11:03 by maanton2         ###   ########.org.br   */
+/*   Updated: 2024/10/30 15:27:26 by maanton2         ###   ########.org.br   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../includes/libft.h"
 
 /**
  * @brief Moves memory area from source to destination.

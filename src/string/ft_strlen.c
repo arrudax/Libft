@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: maanton2 <maanton2@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: maanton2 <maanton2@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/12 15:08:45 by maanton2          #+#    #+#             */
-/*   Updated: 2024/10/29 14:31:51 by maanton2         ###   ########.org.br   */
+/*   Updated: 2024/10/30 17:22:31 by maanton2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../includes/libft.h"
 
 /**
  * @brief Computes the length of a string.

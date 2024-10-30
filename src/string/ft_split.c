@@ -6,11 +6,11 @@
 /*   By: maanton2 <maanton2@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 16:22:45 by maanton2          #+#    #+#             */
-/*   Updated: 2024/10/29 14:27:14 by maanton2         ###   ########.org.br   */
+/*   Updated: 2024/10/30 17:13:34 by maanton2         ###   ########.org.br   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../includes/libft.h"
 
 /**
  * @brief Counts the number of substrings in a string that are separated by a delimiter.

@@ -3,14 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: maanton2 <maanton2@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: maanton2 <maanton2@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/16 20:10:21 by maanton2          #+#    #+#             */
-/*   Updated: 2024/10/28 19:29:47 by maanton2         ###   ########.org.br   */
+/*   Updated: 2024/10/30 17:24:21 by maanton2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 /**
  * @brief Advances the pointer to skip whitespace characters at the beginning of the string.

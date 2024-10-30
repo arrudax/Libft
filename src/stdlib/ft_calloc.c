@@ -6,11 +6,11 @@
 /*   By: maanton2 <maanton2@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/13 11:48:38 by maanton2          #+#    #+#             */
-/*   Updated: 2024/10/28 19:44:15 by maanton2         ###   ########.org.br   */
+/*   Updated: 2024/10/30 17:24:35 by maanton2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../includes/libft.h"
 
 /**
  * @brief Allocates memory for an array of `nmemb` elements of `size` bytes each
