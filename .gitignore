@@ -6,4 +6,5 @@
 test_ft
 run_test
 *.txt
+build/
 .nfs*
