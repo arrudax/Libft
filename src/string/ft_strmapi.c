@@ -6,14 +6,15 @@
 /*   By: maanton2 <maanton2@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/13 11:48:38 by maanton2          #+#    #+#             */
-/*   Updated: 2024/10/30 17:23:03 by maanton2         ###   ########.fr       */
+/*   Updated: 2024/11/12 21:51:33 by maanton2         ###   ########.org.br   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../includes/libft.h"
 
 /**
- * @brief Applies a function to each character of a string and creates a new string.
+ * @brief Applies a function to each character of a string
+ * and creates a new string.
  *
  * This function iterates through each character of the input string 's',
  * applies the function 'f' to each character along with its index,

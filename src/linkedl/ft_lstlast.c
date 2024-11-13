@@ -6,7 +6,7 @@
 /*   By: maanton2 <maanton2@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/23 11:49:57 by maanton2          #+#    #+#             */
-/*   Updated: 2024/10/30 17:25:18 by maanton2         ###   ########.fr       */
+/*   Updated: 2024/11/12 22:02:56 by maanton2         ###   ########.org.br   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,8 @@
  * returns NULL.
  *
  * @param lst A pointer to the first element of the linked list.
- * @return A pointer to the last element of the list, or NULL if the list is empty.
+ * @return A pointer to the last element of the list, or NULL if
+ * the list is empty.
  */
 t_list	*ft_lstlast(t_list *lst)
 {

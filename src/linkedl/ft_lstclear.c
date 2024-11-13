@@ -6,7 +6,7 @@
 /*   By: maanton2 <maanton2@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/23 11:49:57 by maanton2          #+#    #+#             */
-/*   Updated: 2024/10/30 17:25:07 by maanton2         ###   ########.fr       */
+/*   Updated: 2024/11/12 21:57:38 by maanton2         ###   ########.org.br   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,8 @@
  *
  * @param lst A pointer to the pointer of the first element of the list.
  * @param del A pointer to a function that deletes the content of an element.
- *            This function is called for each element's content before it is freed.
+ *            This function is called for each element's content
+ *            before it is freed.
  */
 void	ft_lstclear(t_list **lst, void (*del)(void *))
 {

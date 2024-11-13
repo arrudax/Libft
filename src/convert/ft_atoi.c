@@ -6,12 +6,13 @@
 /*   By: maanton2 <maanton2@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/16 20:10:21 by maanton2          #+#    #+#             */
-/*   Updated: 2024/10/30 17:24:21 by maanton2         ###   ########.fr       */
+/*   Updated: 2024/11/12 22:04:53 by maanton2         ###   ########.org.br   */
 /*                                                                            */
 /* ************************************************************************** */
 
 /**
- * @brief Advances the pointer to skip whitespace characters at the beginning of the string.
+ * @brief Advances the pointer to skip whitespace characters at
+ * the beginning of the string.
  *
  * This function increments the string pointer until the first character
  * is not whitespace (spaces, tabs, and newline characters).
@@ -32,7 +33,8 @@ static void	skip_whitespace(char **str)
  * the function sets `str` to "0" and returns without modifying `sign`.
  *
  * @param sign Pointer to an integer that will receive the value 1 or -1.
- * @param str Address of the pointer to the string, which will advance through the signs.
+ * @param str Address of the pointer to the string, which will advance
+ * through the signs.
  */
 static void	evaluate_sign(int *sign, char **str)
 {
@@ -64,7 +66,8 @@ static void	evaluate_sign(int *sign, char **str)
  * This function processes the string while characters are digits,
  * calculating the corresponding integer value.
  *
- * @param str Address of the pointer to the string containing digits to be processed.
+ * @param str Address of the pointer to the string containing digits
+ * to be processed.
  * @return int Integer value formed by the digits in the string.
  */
 static int	extract_digits(char **str)

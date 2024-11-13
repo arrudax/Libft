@@ -6,7 +6,7 @@
 /*   By: maanton2 <maanton2@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/13 11:48:38 by maanton2          #+#    #+#             */
-/*   Updated: 2024/10/30 15:27:26 by maanton2         ###   ########.org.br   */
+/*   Updated: 2024/11/12 21:56:06 by maanton2         ###   ########.org.br   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,10 @@
  * If the source and destination are the same or if n is zero, the function
  * simply returns dest without performing any operation.
  *
- * @param dest A pointer to the destination memory area where the content is to be moved.
- * @param src A pointer to the source memory area from which content is to be moved.
+ * @param dest A pointer to the destination memory area where
+ * the content is to be moved.
+ * @param src A pointer to the source memory area from which
+ * content is to be moved.
  * @param n The number of bytes to move.
  * @return A pointer to the destination memory area (dest).
  */

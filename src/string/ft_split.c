@@ -6,17 +6,20 @@
 /*   By: maanton2 <maanton2@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 16:22:45 by maanton2          #+#    #+#             */
-/*   Updated: 2024/10/30 17:13:34 by maanton2         ###   ########.org.br   */
+/*   Updated: 2024/11/12 21:50:51 by maanton2         ###   ########.org.br   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../includes/libft.h"
 
 /**
- * @brief Counts the number of substrings in a string that are separated by a delimiter.
+ * @brief Counts the number of substrings in a string that are separated
+ * by a delimiter.
  *
- * This function iterates through the string 's' and counts the number of times a
- * substring is followed by the delimiter 'c' or the end of the string. It returns
+ * This function iterates through the string 's' and counts
+ * the number of times a
+ * substring is followed by the delimiter 'c' or the end of
+ * the string. It returns
  * the total count of such substrings.
  *
  * @param s The string to be evaluated.
@@ -40,8 +43,10 @@ static int	slen_to_delimiter(char const *s, char c)
 /**
  * @brief Counts the length of a substring up to a delimiter.
  *
- * This function counts the number of characters in the string 's' until the
- * delimiter character 'c' is encountered. It returns the length of the substring.
+ * This function counts the number of characters in the
+ * string 's' until the
+ * delimiter character 'c' is encountered. It returns the length
+ * of the substring.
  *
  * @param s The string to be evaluated.
  * @param c The delimiter character.
@@ -63,7 +68,8 @@ static int	str_len_count_to_delimiter(char const *s, char c)
 /**
  * @brief Frees allocated memory for an array of strings.
  *
- * This function takes an array of strings and frees each string as well as
+ * This function takes an array of strings and frees each
+ * string as well as
  * the array itself. It returns NULL.
  *
  * @param split The array of strings to be freed.
@@ -79,11 +85,13 @@ static void	*free_allocs(char **split, int count)
 }
 
 /**
- * @brief Allocates memory and copies a substring from the string up to a delimiter.
+ * @brief Allocates memory and copies a substring from 
+ * the string up to a delimiter.
  *
  * This function allocates memory for a new string that will contain the
  * substring of 's' up to the delimiter 'c'. It updates the count of
- * allocated strings. If memory allocation fails, it frees previously allocated
+ * allocated strings. If memory allocation fails, it frees previously
+ * allocated
  * memory and returns NULL.
  *
  * @param s The string to be copied from.
