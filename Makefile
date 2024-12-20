@@ -14,13 +14,15 @@
 #                                   PATH                                       #
 # **************************************************************************** #
 
-SRCS_CONVERT		:= src/convert/
-SRCS_CTYPE			:= src/ctype/
-SRCS_FILES			:= src/files/
-SRCS_LINKEDL		:= src/linkedl/
-SRCS_MEMORY			:= src/memory/
-SRCS_STRING			:= src/string/
-INCS				:= includes/
+SRCS_GNL_SINGLE		:= gnl/single_fd/
+SRCS_GNL_MULTIPLE	:= gnl/multiple_fd/
+SRCS_CONVERT		:= libft/src/convert/
+SRCS_CTYPE			:= libft/src/ctype/
+SRCS_FILES			:= libft/src/files/
+SRCS_LINKEDL		:= libft/src/linkedl/
+SRCS_MEMORY			:= libft/src/memory/
+SRCS_STRING			:= libft/src/string/
+INCS				:= libft/includes/ gnl/single_fd gnl/multiple_fd
 BUILD_DIR			:= build/
 
 #******************************************************************************#
@@ -35,6 +37,16 @@ MKDIR				:= mkdir -p
 # **************************************************************************** #
 
 NAME				:= libft.a
+USE_MULTIPLE		?= 0
+
+
+ifeq ($(USE_MULTIPLE), 1)
+    SOURCE_FILES	+=$(addprefix $(SRCS_GNL_MULTIPLE), get_next_line.c \
+        get_next_line_utils.c)
+else
+    SOURCE_FILES	+=$(addprefix $(SRCS_GNL_SINGLE), get_next_line.c \
+        get_next_line_utils.c)
+endif
 
 SOURCE_FILES		+=$(addprefix $(SRCS_CONVERT), ft_atoi.c \
 	ft_itoa.c \
